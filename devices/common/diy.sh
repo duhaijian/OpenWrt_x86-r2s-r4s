@@ -33,6 +33,7 @@ svn export --force https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/up
 svn export --force https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
 rm -rf package/kernel/mac80211
 svn export --force https://github.com/coolsnowwolf/lede/trunk/package/kernel/mac80211 package/kernel/mac80211
+svn export --force https://github.com/coolsnowwolf/lede/trunk/package/firmware/ath11k-firmware package/firmware/ath11k-firmware
 svn co https://github.com/coolsnowwolf/lede/trunk/target/linux/generic/hack-5.10 target/linux/generic/hack-5.10
 rm -rf target/linux/generic/hack-5.10/{220-gc_sections*,781-dsa-register*,780-drivers-net*,996-fs-ntfs3*}
 ) &
